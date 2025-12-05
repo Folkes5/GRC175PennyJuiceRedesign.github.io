@@ -1,0 +1,351 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    background-image: url("../Images/bgimage_optimized(2).jpg");
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    Margin: 0;
+    }
+
+a {
+    text-decoration: none;
+    color: dimgray;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 5px;
+}
+
+h2 {
+    font-size: 30px;
+    color: darkblue;
+    margin: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    color: #201818;
+    margin: 10px;
+    }
+
+h4{
+    font-size: 15px;
+    color: grey;
+    margin: 10px;
+}
+
+blog{
+    float:left;
+    background-color: wheat;
+    /*padding: 20px;*/
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    width: 100%;
+}
+
+article h3{
+    float: left;
+   /* height: 100px;*/
+    background-color: seashell;
+    padding: 20px;
+    margin:auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+article h4{
+    float:left;
+    height: 10px;
+    padding: 20px;
+    margin: 10px;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+article h5{
+    float:left;
+    margin-left: 750px;
+    margin-top: 5px;
+    color:blue;
+    padding: 5px;
+}
+
+#container {
+    background-color: #ffffff;
+    width: 900px;
+    /*height: 1400px;*/
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+table{
+    background-color: orange;
+    width: 100%;
+    float: left;
+    color: white;
+    padding: 5px;
+    border-left: 5px;
+}
+
+.header {
+    overflow: hidden;
+    color: crimson;
+    text-align: left;
+}
+
+.content {
+    height: 8px;
+    background-color: darkred;
+}
+
+.topnav{
+    overflow: hidden;
+    /*background-color: rgba(245, 190, 129, 0.86);*/
+    background-color: white
+}
+
+.topnav a {
+    float:left;
+    display: block;
+    color: darkblue;
+    text-align: center;
+    padding: 15px 7px;
+    text-decoration: none;
+}
+
+.topnav li{
+    list-style: none;
+}
+
+.topnav ul{
+    /*float: left;*/
+    float: right;
+    padding: 70px 100px 1px 75px;
+}
+
+.topnav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+.topnav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: blue;
+    padding: 10px;
+    border-radius: px px 4px 4px;
+}
+
+.topnav ul li:hover{
+    display: block;
+    position: relative;
+    background-color: greenyellow;
+    padding-right: 10px;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.topnav ul li ul li {
+    padding: 8px 14px;
+}
+
+.topnav ul li ul li a {
+    border-radius: 4px;
+}
+
+.topnav ul li ul li a:hover {
+    background-color: blue;
+}
+
+
+/*.about-image{
+    flex: 70%;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: blueviolet;
+    padding: 20px;
+}*/
+
+.flex-container {
+    width: 100%;
+    text-align: left;
+    line-height: 25px;
+    font-size: 30px;
+}
+
+.flex-container4 {
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    clear: both;    
+}
+
+.flex-container4 > div {
+    background-color: white;
+    margin: 50px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 30px;
+}
+
+.image-text-container{
+    display: flex;
+    gap: 40px;
+    /*max-width: 450;*/
+    margin: 8px;
+    line-height: 25px;
+    float:none;
+    border: 5px;
+}
+
+.image-text-container2{
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+    line-height: 25px;
+    float:none;
+    Padding: 20px;
+    border: 5px;
+}
+
+
+.flex-container2 {
+    display: flex;
+    justify-content: center;
+    clear: both;    
+}
+
+.flex-container2 > div {
+    background-color: white;
+    width: 100%;
+    margin: 5px;
+    text-align: center;
+    line-height: 22px;
+    padding: 2px;
+    float: left;
+}
+
+/*.flex-container2 ul {
+    list-style: none;
+    color: black;
+}*/
+
+.flex-container3 {
+    display: flex;
+    text-align: center;
+    clear: both;    
+}
+
+.flex-container3 > div {
+    background-color: wheat;
+    width: 100%;
+    margin: 10px;
+    text-align: left;
+    line-height: 25px;
+    border-radius: 25px;
+}
+
+.flex-container5 {
+    display: flex;
+    background-color: aliceblue;
+    justify-content: center;
+    clear: both;
+}
+
+.flex-container5 >div {
+    background-color: #cff4c9;
+    color: #2d2929;
+    width: 80%;
+    margin: 10px;
+    text-align:left;
+    line-height: 25px;
+    border-radius: 25px;
+   }
+
+.flex-container5 >div h1 {
+    color: red;
+    margin: 10px;
+    text-align: left;
+    /*line-height: 25px;*/
+    font-size: 30px; 
+}
+
+.flex-container5 >div h2 {
+    color: deeppink;
+    margin: 10px;
+    text-align: left;
+    /*line-height: 25px;*/
+    font-size: 30px; 
+}
+
+.flex-container5 >div h3 {
+    color: darkblue;
+    text-align: left;
+    /*line-height: 25px;*/
+    font-size: 30px; 
+}
+
+.flex-container5 >div h4 {
+    color: orange;
+    margin: 10px;
+    text-align: left;
+    /*line-height: 25px;*/
+    font-size: 30px; 
+}
+
+.flex-container5 >div h5 {
+    color: orangered;
+    margin: 10px;
+    text-align: left;
+    /*line-height: 25px;*/
+    font-size: 30px; 
+    position:relative;
+}
+
+.flex-container5 >div h6 {
+    color: mediumpurple;
+    margin: 10px;
+    text-align: left;
+    /*line-height: 25px;*/
+    font-size: 30px; 
+}
+
+
+.flex-container5 ul{
+    float: left;
+}
+
+.flex-container5 ul li{
+    list-style:none;
+    text-align: left;
+    /*Position: relative;*/
+}
+
+
+.image-text-container ul li{
+    list-style: none;
+}
+
+.logo img {
+    width: 344px;
+    height: 149px;
+}
+
+/* comment out slider
+.slider_image{
+    flex: 70%;
+    flex-wrap: wrap;
+    display: flex;
+    padding: 20px;
+}*/
+
+
+.footer{
+    text-align: center;
+    padding: 10px;
+}
+
