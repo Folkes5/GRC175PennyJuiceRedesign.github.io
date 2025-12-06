@@ -94,6 +94,7 @@ table{
     overflow: hidden;
     color: crimson;
     text-align: left;
+    height: 150px;
 }
 
 .content {
@@ -331,6 +332,7 @@ table{
     text-align: center;
     padding: 10px;
 }
+
 
 
 
