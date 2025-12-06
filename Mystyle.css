@@ -326,12 +326,17 @@ table{
     height: 149px;
 }
 
-
+.slider_image{
+    flex: 70%;
+    flex-wrap: wrap;
+    display: flex;
+  }
 
 .footer{
     text-align: center;
     padding: 10px;
 }
+
 
 
 
